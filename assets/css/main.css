@@ -85,10 +85,10 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 235, 189, 0.5) 5%, rgba(141, 68, 36, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 235, 189, 0.5) 5%, rgba(141, 68, 36, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 235, 189, 0.5) 5%, rgba(141, 68, 36, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 235, 189, 0.5) 5%, rgba(141, 68, 36, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 235, 189, 0.75) 5%, rgba(141, 68, 36, 0.75)), url("../../images/desert-03.gif");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 235, 189, 0.75) 5%, rgba(141, 68, 36, 0.75)), url("../../images/desert-03.gif");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 235, 189, 0.75) 5%, rgba(141, 68, 36, 0.75)), url("../../images/desert-03.gif");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 235, 189, 0.75) 5%, rgba(141, 68, 36, 0.75)), url("../../images/desert-03.gif");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
