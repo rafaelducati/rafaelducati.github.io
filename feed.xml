@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rafael Ducati</title>
+    <description>Rafael Ducati</description>
+    <link>http://rafaelducati.github.io/</link>
+    <atom:link href="http://rafaelducati.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Mar 2016 15:21:55 -0300</pubDate>
+    <lastBuildDate>Mon, 21 Mar 2016 15:21:55 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Case study 1 - Uselets Minhas Medidas</title>
+        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;O outlet Uselets é um e-commerce que trabalha com marcas nacionais e internacionas do mercado fashion. Como UX e webdesigner da equipe de desenvolvimento do Uselets, desde sua fase de startup, minha responsabilidade era desenvolver soluções para melhorar a encontrabilidade do produto pelo usuário.&lt;/p&gt;
+
+&lt;h2 id=&quot;problema&quot;&gt;Problema&lt;/h2&gt;
+
+&lt;p&gt;Após 12 meses de operação, o departamento de trocas e devoluções registrou um excesso de suas atividades. Por se tratar de um contexto multimarcas, havia muita diferenciação entre os tamanhos dos produtos e as medidas não estavam devidamente esclarecidas nas páginas de produto. A insatisfação do usuário foi detectada pela crescente incidência das transações de trocas ou devoluções, que implicava também em mais trabalho para este departamento.&lt;/p&gt;
+
+&lt;p&gt;Os usuários precisavam de uma maneira mais fácil de encontrar produtos que se encaixavam com seu tamanho, e além disso, se sentirem seguros para comprar estes produtos com suas medidas exatas.&lt;/p&gt;
+
+&lt;h2 id=&quot;processo&quot;&gt;Processo&lt;/h2&gt;
+
+&lt;p&gt;O processo começou com a identificação da necessidade de exibir mais informações para os tamanhos dos produtos, além dos clássicos P, M e G. Isso significava, em parte, estender os dados de tamanho dos produtos cruzando com os novos dados do usuário.&lt;/p&gt;
+
+&lt;p&gt;Em conjunto com o departamento de produto e compras, foram definidas novas medidas gerais para cada produto:&lt;/p&gt;
+
+&lt;p&gt;altura, 
+busto/tórax
+cintura 
+quadril
+comprimento
+calçado&lt;/p&gt;
+
+&lt;p&gt;Como estes dados eram inexistentes até então na base de dados, fiquei com a responsabilidade de idealizar as interfaces do fluxo de entrada destes novos dados a serem inputados pelo usuário.&lt;/p&gt;
+
+&lt;p&gt;A ideia era esclarecer, com mais precisão, as medidas ideais para cada usuário. Após reuniões com o departamentos de TI, de produto e de compras, comecei a desenvolver o Minhas Medidas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sketch2.png&quot; alt=&quot;alt text&quot; title=&quot;Sketch 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sketch1.png&quot; alt=&quot;alt text&quot; title=&quot;Sketch 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Após passar para o papel as idéias, criei um pequeno wireframe low level utilizando o Axure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/wireframe1.png&quot; alt=&quot;alt text&quot; title=&quot;Wireframe 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/wireframe2.png&quot; alt=&quot;alt text&quot; title=&quot;Wireframe 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Após aprovado o wireframe, montei um pequeno protótipo navegável com InvisionApp e parti para a etapa de validação com usuários. Validei o protótipo com 5 usuários diferentes, fazendo uma pesquisa de guerrilha. Esse método incluída heavy users de ecommerce de moda. Observar suas reações foi fundamental para a validação. A princípio foram descobertos alguns pontos interessantes:&lt;/p&gt;
+
+&lt;p&gt;- A maioria dos usuários não tinha conhecimento de suas medidas específicas.&lt;/p&gt;
+
+&lt;p&gt;- Algumas das medidas não estavam esclarecidas o suficiente ao usuário.&lt;/p&gt;
+
+&lt;p&gt;- Não havia associação visual para cada medida e o usuário aumentando o tempo de inserção dos dados.&lt;/p&gt;
+
+&lt;p&gt;Alterações:&lt;/p&gt;
+
+&lt;p&gt;- Inserção de passos curtos através de tópicos, orientando o usuário ao preenchimento.&lt;/p&gt;
+
+&lt;p&gt;- Inserção de um infográfico associado diretamenta aos inputs de entrada de cada medida.&lt;/p&gt;
+
+&lt;p&gt;- Modificação por gênero, dependente do modelo do infográfico.&lt;/p&gt;
+
+&lt;p&gt;- Inserção de um video curto esclarecendo cada medida e como fazer a medição.&lt;/p&gt;
+
+&lt;h3 id=&quot;ui-design-final&quot;&gt;UI design final&lt;/h3&gt;
+
+&lt;p&gt;Após os dados obtidos com o protótipo navegável, parti para o conceito visual das telas utilizando o Sketch.&lt;/p&gt;
+
+&lt;p&gt;Versão feminina:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Start-Fem.png&quot; alt=&quot;alt text&quot; title=&quot;Layout 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Versão masculina:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Start-Masc.png&quot; alt=&quot;alt text&quot; title=&quot;Layout 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Após o preenchimento das medidas, uma vitrine com todos os produtos concatenados com estas informações é exibida em seguida. Um algoritmo foi deselvolvido para aumentar as exibições destes produtos pelas vitrines do site de acordo com os dados do usuário.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Vitrine.png&quot; alt=&quot;alt text&quot; title=&quot;Layout 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O passo seguinte foi a criação de um selo indicativo de produto com medidas exatas do usuário, a ser exibido na vitrine e na página de produto. Produtos com este selo possuem as medidas corretas do usuário e e já com a medida selecionada para ser imediatamente comprado pelo mesmo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Produto.png&quot; alt=&quot;alt text&quot; title=&quot;Layout 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Uma tela de edição de medidas foi derivada da tela inicial de input para que o usuário corrija ou atualize suas informações.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Edicao.png&quot; alt=&quot;alt text&quot; title=&quot;Layout 1&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;testes-com-usurios&quot;&gt;Testes com usuários&lt;/h2&gt;
+
+&lt;p&gt;A maioria dos meus testes com usuários estavam com pessoas ao redor do escritório. Aproveitei oportunidades para abordá-las por 5 minutos para fazer os testes e então receber sugestões sobre o protótipo, assim que elas concluissem o cadastro das medidas.&lt;/p&gt;
+
+&lt;h2 id=&quot;resultados&quot;&gt;Resultados&lt;/h2&gt;
+
+&lt;p&gt;- Usuários sentem-se seguros e convencidos a comprar produtos que sabem possuir suas medidas corretas.&lt;/p&gt;
+
+&lt;p&gt;- As métricas mostraram uma melhor taxa de visitantes novos.&lt;/p&gt;
+
+&lt;p&gt;- Os números mostraram uma melhor taxa de conversão após a implementação.&lt;/p&gt;
+
+&lt;p&gt;- Houve também um aumento de produtos favoritados por usuário.&lt;/p&gt;
+
+&lt;p&gt;- As trocas e devoluções bem como as reclamações sobre tamanhos de produtos entregues diminuíram consideravelmente.&lt;/p&gt;
+&lt;div class=&quot;txt-center&quot;&gt;
+&lt;a class=&quot;btn &quot; href=&quot;http://secure.uselets.com.br/medidas/cadastrar&quot; target=&quot;_blank&quot;&gt;Veja o case online*&lt;/a&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;*É necessário se logar no site&lt;/small&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 21 Mar 2016 16:19:43 -0300</pubDate>
+        <link>http://rafaelducati.github.io/jekyll/update/2016/case-study-1/</link>
+        <guid isPermaLink="true">http://rafaelducati.github.io/jekyll/update/2016/case-study-1/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
