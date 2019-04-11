@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> VR Desert Puzzler | Rafael Ducati</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="/css/main.css">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="theme-color" content="#2ecc71">
+    <link rel="canonical" href="http://rafaelducati.github.io/jekyll/update/2019/vr-desert-puzzler/">
+    <link rel="alternate" type="application/rss+xml" title="Rafael Ducati"
+        href="http://rafaelducati.github.io/feed.xml" />
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <meta name="robots" content="noindex">
+    <!--=====  Please remove it ! ! !  ======-->
+    <meta name="googlebot" content="noindex">
+    <!--=====  Please remove it ! ! !  ======-->
+</head>
+
+<body class="single">
+    <main class="container">
+        <header class="site-header">
+            <div class="container txt-center">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="/">home</a></li>
+                        <li class="divider">&bull;</li>
+                        <li><a href="/about-me">about me</a></li>
+                        <!-- <li class="divider">&bull;</li>
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i> feed</a></li> -->
+                    </ul>
+                </nav>
+                <a href="/" class="author-thumb">
+                    <img src="/images/rafael-ducati.png" alt="Rafael Ducati" class="dot">
+                </a>
+                <h1>Rafael Ducati <small>UX + UI + Front-end Designer</small></h1>
+                <!--  <a class="btn" href="https://github.com/rafaeducati/rafaelducati/archive/master.zip" target="_blank">download</a> -->
+                <hr class="hr">
+            </div>
+        </header>
+        <section class="main-content">
+            <article class="post">
+                <header class="post-header">
+                    <h1 class="post-title">VR Desert Puzzler</h1>
+                    <!-- <p class="post-meta">Mar 21, 2018</p> -->
+                </header>
+                <div class="post-content">
+                    <h1 id="puzzlerwriteupbyrafaelducati">Puzzler Writeup by Rafael Ducati</h1>
+
+                    <h2 id="desertpuzzlervrgame">Desert Puzzler VR Game</h2>
+
+                    <p>Desert Puzzler is a simple virtual reality game for Google Cardboard inspired by the classic
+                        memory game "Simon".</p>
+
+                    <p>The player discovers an abandoned ruin in the desert and needs to solve a memory puzzle to
+                        escape.</p>
+
+                    <p>The puzzle is composed of five colorful floating orbs that begin to glow in a certain logical
+                        pattern. The player must interact with the orbs by selecting each orb in the correct sequence to
+                        complete the game.</p>
+
+                    <p>A video of the ultimate Desert Puzzler experience can be seen here:
+                        https://youtu.be/JoJ1ZUifYEo</p>
+
+                    <p><img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/2-puzzler-the-challenge.png"
+                            alt="Desert Puzzler" title="Desert Puzzler" /></p>
+
+                    <h2 id="outcomes">Outcomes</h2>
+
+                    <p>This project was essential for my learning to assimilate the VR design processes, with the
+                        iterations through information obtained from usability tests with users in the course of
+                        development. With the accomplishment of tests of scale, interface, movement, ambiance and
+                        sounding, it was possible to sediment knowledge and to learn to design experiences of VR
+                        increasingly assertive.</p>
+
+                    <h2 id="storyoftheprocess">Story of the process</h2>
+
+                    <h4 id="thestatementofpurpose">The statement of purpose</h4>
+
+                    <p>"Desert Puzzler is a VR application for new VR users that challenges them to solve familiar types
+                        of puzzles in a different way."</p>
+
+                    <h4 id="persona">Persona</h4>
+
+                    <p><img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/rafael-ducati-persona-vrnd-02.png"
+                            alt="Persona" title="Persona" /></p>
+
+                    <h4 id="sketches">Sketches</h4>
+
+                    <p><img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/rafael-ducati-sketch-puzzler-vrnd.jpg"
+                            alt="Rough sketch of my Puzzler" title="Rough sketch of my Puzzler" /></p>
+
+                    <p>This is my rough sketch of my Puzzler project: inside the pyramid I added a first room with some
+                        UI to show more basic info for the user, and maybe introduce him some kind of storytelling.
+                        After that, the second room contains the puzzle and the exit door. I chose later to take out the
+                        pyramid shape first idea, so I kept the dungeon to pass a sense of solitude and mystery.</p>
+
+                    <p><img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/sketch-graphic-interface-publish.jpg"
+                            alt="Rough sketch of graphic design interface elements"
+                            title="Rough sketch of graphic design interface elements" /></p>
+
+                    <p>The UI elements was fixed on the floor instead of floating boards, to be more plausible with the
+                        proposed environment. The indications were placed on walls with textures of buildings.</p>
+
+                    <h4 id="buildinginunity3d">Building in Unity 3D</h4>
+
+                    <p><img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/making-the-final-puzzler-02.png"
+                            alt="Building in Unity" title="Building in Unity" /></p>
+
+                    <p>The application was developed in Unity, which is very friendly to develop VR experiences in a
+                        very visual and intuitive way.</p>
+
+                    <p>For the internal structure of the Desert Puzzle were used basic models simulating a distant and
+                        lonely place. The components were assembled so that there was considerable internal space to
+                        pass the mood of mystery to the user.</p>
+
+                    <p>For the illumination few torches with lights in spot were used to generate a certain penumbra, so
+                        that it would provide a dark and suggestive atmosphere. The lights contributed to tell an
+                        environment of adventure and mystery. the atmosphere of the experience was purposely created to
+                        look dark and mysterious, although there are several torches available with medium illumination
+                        to soften the natural darkness.</p>
+
+                    <p>In the external setting the idea would be to show the user the scene of a desolate desert in the
+                        night. A skybox with starry sky was inserted, with a directional light to simulate the lunar
+                        light, making it possible to see the silhouette of the dunes. For the relief was created a
+                        terrain around the main structure with some moderate elevations. To complete the scene was
+                        inserted into the terrain a sand dune texture with wind action.</p>
+
+                    <h2 id="usertestingoutcomesanditeration">User Testing outcomes and iteration</h2>
+
+                    <p>To make the experience truly immersive to the user, several usability tests were often applied
+                        during the application building steps. Each series of tests addressed different aspects of the
+                        development process.</p>
+
+                    <p>The tests were applied to 3 people of different age groups, all with little VR experience. These
+                        users were instructed to 'think loudly' and describe orally each action they were doing at the
+                        moment, which greatly aided in understanding the exact points that should be improved. At each
+                        test, a series of pre-determined questions were applied to each user while they experimented
+                        with the application. All user response information and relevant points were annotated to be
+                        documented and analyzed after each test.</p>
+
+                    <h4 id="usertesting1scale">User testing 1 - Scale</h4>
+
+                    <p><img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/usatility-test-scale.png"
+                            alt="The Desert Puzzler VR experience - User testing: scale" /></p>
+
+                    <p>The first user test was a scale test, to validate if the size of the objects in the scene were
+                        appropriate according to the user's view. Attention had to be paid to minimal detail: users
+                        could feel taller or lower than their actual height. This depends on the placement of the
+                        camera, which is the view of the users within the application. After a first test the users
+                        realized that they were a little high. The height of the camera has been decreased to the extent
+                        of a person of average height. In the second test the feedback was that the view from the height
+                        was already with a more realistic reference.</p>
+
+                    <p>Questions about how to describe the scene where he was was helped to get a sense of whether the
+                        setting was really immersive. When asked to think loud, users felt comfortable saying anything
+                        they were feeling at that first contact with the game environment, and these descriptions
+                        contained valuable information. Everything pointed out that the mood of mystery and suspense was
+                        really working as planned, and in that direction were made fine improvements during the tests.
+                    </p>
+
+                    <h4 id="usertesting2userinterface">User testing 2 - User Interface</h4>
+
+                    <p><img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/usability-test-interface.png"
+                            alt="The Desert Puzzler VR experience - User testing: interface" /></p>
+
+                    <p>In the interface test users need to read and interact with the buttons and boards without
+                        difficulty to advance in the game. For the indication plates, later a more adequate serifed
+                        source with the theme of the game was chosen and that at the same time had a good readability.
+                        Short and obvious texts were used. In the first test the users reported that the camera was very
+                        close to the interfaces. The space between the cameras and the elders were standardized at the
+                        entrance, at the orbs and at the exit. After this iteration users have already been able to see
+                        the boards at a good distance and read the messages much more easily.</p>
+
+                    <h4 id="usertesting3movementmechanics">User testing 3 - Movement Mechanics</h4>
+
+                    <p>The movement mechanics test needed to ensure users did not have motion sickness during the game,
+                        a negative reaction perceived mainly by people with high sensitivity to sudden movements in VR.
+                        Users noticed that the speed of movement of the camera from one point to another was a little
+                        too fast. The rate of speed of these movements was diminished, and feedback from the users was
+                        an immediate comfort in the movement of the camera from one point to another of the game.</p>
+
+                    <h4 id="usertesting4audiogamemechanicsandfeedback">User testing 4 - Audio, Game Mechanics, and
+                        Feedback</h4>
+
+                    <p>With the game complete and already possible to be played, more user tests were done to check the
+                        mechanics of the game, the ambient sound and general feedback of the set.</p>
+
+                    <p>After a first test, it took some iterations with the mechanics of the game. The five spheres were
+                        virtually identical, and users had some difficulty completing the click sequence. To facilitate
+                        memorizing the sequence of beads by the user, different colors have been set for each of the
+                        orbs. A pitch variation in the sound of each orb was also defined so that the difference between
+                        them was in a distinct muscical note on a musical scale. A new test was performed with users of
+                        smaller age groups, and this change was essential to improve memorization of the bead sequence,
+                        which made the experience more fluid. Thus, it was noticeable that the difficulty level
+                        decreased and the gameplay became more accessible and enjoyable.</p>
+
+                    <p>In addition to setting a musical tone for each sphere, for the desing of sound was added a
+                        background sound of wind that simulates the activity of the desert dunes. For the interface
+                        buttons a click sound was added on the stone surface.</p>
+
+                    <p>Another improvement was to regroup the spheres to the center of the comfort zone vision. With the
+                        orbs repositioned just ahead, users no longer had to move their heads to the sides trying to see
+                        all the spheres at once.</p>
+
+                    <h2 id="breakdownofthefinalpiece">Breakdown of the final piece</h2>
+
+                    <p>The desert outside
+                        <img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/puzzler-the-dunes-01.jpg"
+                            alt="The Desert Puzzler VR experience - Entering" /></p>
+
+                    <p>The first sign
+                        <img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/puzzler-entering.jpg"
+                            alt="The Desert Puzzler VR experience - Entering" /></p>
+
+                    <p>The challenge
+                        <img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/puzzler-the-game-01.jpg"
+                            alt="The Desert Puzzler VR experience - Entering" /></p>
+
+                    <p>The restart screen
+                        <img src="https://raw.githubusercontent.com/rafaelducati/udacity-desert-puzzler/master/images/puzzler-exiting.jpg"
+                            alt="The Desert Puzzler VR experience - Entering" /></p>
+
+                    <h2 id="conclusion">Conclusion</h2>
+
+                    <p>The Desert Puzzler project shows how it is possible to evolve a VR project through iterations and
+                        user feedbacks, an indispensable process for the development, and hence the success of an
+                        application with its audience. With these changes applied, I realized that the Desert Puzzler
+                        was more inviting, more intuitive, easy to play, and even fun.</p>
+
+                    <h3 id="nextsteps">Next Steps</h3>
+
+                    <p>With the Desert Puzzler application finished, the final feedback from the users was very positive
+                        and with several suggestions of new ideas for the game such as: insertion of a progression in
+                        the sequence of the spheres, new levels with different scenarios and until the creation of
+                        customized animations for some elements. Some ideas will be applied in the future in a new
+                        version of Desert Puzzler.</p>
+
+                    <h3 id="linktoaditionalwork">Link to aditional work</h3>
+
+                    <p>Desert Puzzler experience video:
+                        https://youtu.be/JoJ1ZUifYEo</p>
+                </div>
+            </article>
+        </section>
+        <div class="clearfix"></div>
+        <footer class="site-footer txt-center">
+            <hr>
+            <ul class="social">
+                <li><a href="" target="_blank"><i class="icon icon-"></i></a></li>
+                <li><a href="http://github.com/rafaelducati" target="_blank"><i class="icon icon-github"></i></a></li>
+                <li><a href="" target="_blank"><i class="icon icon-"></i></a></li>
+                <li><a href="http://twitter.com/DucatiRafael" target="_blank"><i class="icon icon-twitter"></i></a></li>
+                <li><a href="" target="_blank"><i class="icon icon-"></i></a></li>
+                <li><a href="http://instagram.com/radugram" target="_blank"><i class="icon icon-instagram"></i></a></li>
+                <li><a href="" target="_blank"><i class="icon icon-"></i></a></li>
+                <li><a href="http://linkedin.com/in/rafaelducati" target="_blank"><i class="icon icon-linkedin"></i></a>
+                </li>
+            </ul>
+            <small>&copy; 2018 All rights reserved.</small>
+        </footer>
+    </main>
+</body>
+
+</html>
