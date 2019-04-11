@@ -1,108 +1,149 @@
 <!DOCTYPE html>
 <html>
-  <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Case study 2 - Uselets Wishlist | Rafael Ducati</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<link rel="stylesheet" href="/css/main.css">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="theme-color" content="#2ecc71">
-<link rel="canonical" href="http://rafaelducati.github.io/jekyll/update/2018/case-study-2/">
-<link rel="alternate" type="application/rss+xml" title="Rafael Ducati" href="http://rafaelducati.github.io/feed.xml" />
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', '']);
-_gaq.push(['_trackPageview']);
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-    <meta name="robots" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
-    <meta name="googlebot" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
-  </head>
-  <body class="single">
-    <main class="container">
-        <header class="site-header">
-  <div class="container txt-center">
-    <nav class="navbar">
-      <ul>
-        <li><a href="/">home</a></li>
-        <li class="divider">&bull;</li>
-        <li><a href="/about-me">about me</a></li>
-        <!-- <li class="divider">&bull;</li>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Case study 2 - Uselets Wishlist | Rafael Ducati</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="/css/main.css">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="theme-color" content="#2ecc71">
+  <link rel="canonical" href="http://rafaelducati.github.io/jekyll/update/2018/case-study-2/">
+  <link rel="alternate" type="application/rss+xml" title="Rafael Ducati"
+    href="http://rafaelducati.github.io/feed.xml" />
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+      '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <meta name="robots" content="noindex">
+  <!--=====  Please remove it ! ! !  ======-->
+  <meta name="googlebot" content="noindex">
+  <!--=====  Please remove it ! ! !  ======-->
+</head>
+
+<body class="single">
+  <main class="container">
+    <header class="site-header">
+      <div class="container txt-center">
+        <nav class="navbar">
+          <ul>
+            <li><a href="/">home</a></li>
+            <li class="divider">&bull;</li>
+            <li><a href="/about-me">about me</a></li>
+            <!-- <li class="divider">&bull;</li>
         <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i> feed</a></li> -->
-      </ul>
-    </nav>
-    <a href="/" class="author-thumb">
-      <img src="/images/rafael-ducati.png" alt="Rafael Ducati" class="dot">
-    </a>
-    <h1>Rafael Ducati <small>UX + UI + Front-end Designer</small></h1>
-   <!--  <a class="btn" href="https://github.com/rafaeducati/rafaelducati/archive/master.zip" target="_blank">download</a> -->
-    <hr class="hr">
-  </div>
-</header>
-        <section class="main-content">
-          <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">Case study 2 - Uselets Wishlist</h1>
-    <!-- <p class="post-meta">Mar 20, 2018</p> -->
-  </header>
-  <div class="post-content">
-    <h2 id="overview">Overview</h2>
-<p>Na seção de wishlist do Uselets, o usuário pode favoritar produtos que são guardados em uma página associada a seu perfil. Após a verificação de um crescente número de produtos favoritados por cada usuário, surgiu a necessidade de alavancar a conversão neste ponto.</p>
-<h2 id="problema">Problema</h2>
-<p>A seção de wishlist foi desenvolvida através de um processo de derivação da vitrine tradicional do site, seguindo o mesmo grid e style guides. Ela não possuía peculiaridades próprias que a diferenciasse das demais vitrines do site, na visão do usuário, exceto pela capacidade de inserir e excluir produtos conforme seu desejo.</p>
-<h2 id="pesquisa">Pesquisa</h2>
-<p>Após realizar o benchmarking com outros 10 concorrentes de e-commerce fashion, constatei que todas as seções de wishlist destes sites eram visualmente similares: funcionalidade básica de marcar o produto e exibi-lo em uma lista, em formato de vitrine com acesso restrito ao login do usuário.</p>
-<p>Após reuniões de brainstorm com as demais equipes, surgiram novas ideias para inovar o processo de interação do usuário com a área de wishlist.  A principal ideia votada foi a possibilidade de o usuário expor seus favoritos a outras pessoas.</p>
-<h2 id="processo">Processo</h2>
-<p>A partir daí, tive a ideia de separar a área de favoritos em duas interfaces: edição e visualização. Fiquei responsável por idealizar uma nova forma de o usuário mostrar sua wishlist diferentemente das analisadas no mercado existente, com a preocupação de evitar a associação direta com uma vitrine de e-commerce convencional. Para isso, listei como objetivos:</p>
-<p>- Exibir fotos maiores</p>
-<p>- Conceito visual alternativo, diferente de um grid de vitrine</p>
-<p>- Ocultar informações de compra dos produtos ocultos: valores, botões, selos</p>
-<p>- Adaptação dependente do número de produtos existentes na wishlist</p>
-<p>A principal barreira interna, em relação a outros departamentos, foi a aceitação do fato de ocultar os preços do produto nesta tela.
-Meu argumento foi calcado no aspecto visual em que somente as imagens do produto seriam suficientes como elemento visual, evitando referências a qualquer tipo de vitrine.
-Minha intenção seria que o usuário tivesse uma experiência similar a aquisição de uma coleção de fotos, de caráter mais pessoal.</p>
-<p>Minha inspiração foi a lista de produtos do Pinterest, que possuia um grid diferenciado de exibicão geral, embora permitisse visualizar elementos apelativos como botões e preços do produto. O objetivo era conseguir a mesma fluidez de encaixe entre os boxes das células de produto.</p>
-<p>Sketch da página de visualização da wishlist:</p>
-<p><img src="/images/sketch-favoritos-visualizacao.png" alt="alt text" title="Sketch " /></p>
-<h3 id="prototipao-direto-no-cdigo">Prototipação direto no código</h3>
-<p>Ao invés de partir para os wireframes, comecei a prototipar a wishlist dos rascunhos das reuniões direto para frontend. Esse processo se justificou pelo uso do <a href="http://masonry.desandro.com/">Masonry</a>, uma biblioteca de layout grids em javascript, onde é possível projetar tamanhos diferentes de exibição das fotos e garantir uma interação visual de acordo com o tamanho do view ou device do usuário. Comecei então a trabalhar diretamente no HTML e CSS definindo protótipo interativo com estrutura low level de blocos, utilizando os tamanhos de exibição para cada imagem do mosaico. Aproveitei os padrões existentes na base de dados para as imagens de produto.</p>
-<p>A tela de edição de favoritos continuou como formato vitrine, facilitando a exclusão de um produto:</p>
-<p><img src="/images/favoritos-edicao.png" alt="alt text" title="Sketch " /></p>
-<p>Após testes com extremos de conteúdo, a página de visualização final da wishlist subiu em produção. Como planejado, a versão final possui somente as fotos dos produtos. O mouse hover na versão desktop revela o nome do produto e valor, enquanto na versão mobile responsiva o clique aponta para a página do produto. A última foto favoritada é exibida em tamanho G. Os produtos favoritados percorrem o template conforme a cada favorito adicionado, gerando uma troca de tamanhos.</p>
-<p>Versão final da página de visualização da wishlist:</p>
-<p><img src="/images/favoritos-visualizacao.png" alt="alt text" title="Sketch " /></p>
-<p>Clicando no botão compartilhar, um popup se abre e o usuário pode fazer o compartilhamento da wishlist de 3 maneiras diferentes: divulgando o link da wishlist, através de redes sociais, e por lista de email.</p>
-<p><img src="/images/favoritos-compartilhar.png" alt="alt text" title="Sketch " /></p>
-<p>Caso o usuário deseje comprar um favorito de sua lista, basta clicar no produto e um popup com um quickview surgirá.</p>
-<p><img src="/images/favoritos-popup.png" alt="alt text" title="Sketch " /></p>
-<h2 id="resultados">Resultados</h2>
-<h3 id="testes-com-usurios">Testes com usuários</h3>
-<p>Foram realizados testes com 9 usuários, onde:</p>
-<p>- 4 entrevistados não desejaram divulgar sua lista de favoritos, porém aprovaram o novo formado: acharam o formato novo mais interessante do que a lista de edição / visualização antiga.</p>
-<p>- 5 entrevistados aprovaram o formato novo de visualização, dizendo que divulgariam para seus contatos.</p>
-<p>- 2 entrevistados preferiram a visualização antiga. Os motivos foram: não tinham necessidade de divulgar seus favoritos, não usam os favoritos, não se lembrariam de acessar os favoritos.</p>
-<p>- 2 entrevistados não notaram o botão de compartilhamento e não chegaram a acessar a página de visualização da wishlist.</p>
-<div class="txt-center">
-  <p></p>
-  <a class="btn " href="/jekyll/update/2018/case-study-1/" target="_blank">Veja o case study 1</a>
-  <p></p>
-</div>
-  </div>
-</article>
-        </section>
-<div class="clearfix"></div>
-<footer class="site-footer txt-center">
-  <hr>
-  <ul class="social">
+          </ul>
+        </nav>
+        <a href="/" class="author-thumb">
+          <img src="/images/rafael-ducati.png" alt="Rafael Ducati" class="dot">
+        </a>
+        <h1>Rafael Ducati <small>Frontend Designer & Frontend Developer</small></h1>
+        <!--  <a class="btn" href="https://github.com/rafaeducati/rafaelducati/archive/master.zip" target="_blank">download</a> -->
+        <hr class="hr">
+      </div>
+    </header>
+    <section class="main-content">
+      <article class="post">
+        <header class="post-header">
+          <h1 class="post-title">Case study 2 - Uselets Wishlist</h1>
+          <!-- <p class="post-meta">Mar 20, 2018</p> -->
+        </header>
+        <div class="post-content">
+          <h2 id="overview">Overview</h2>
+          <p>Na seção de wishlist do Uselets, o usuário pode favoritar produtos que são guardados em uma página
+            associada a seu perfil. Após a verificação de um crescente número de produtos favoritados por cada usuário,
+            surgiu a necessidade de alavancar a conversão neste ponto.</p>
+          <h2 id="problema">Problema</h2>
+          <p>A seção de wishlist foi desenvolvida através de um processo de derivação da vitrine tradicional do site,
+            seguindo o mesmo grid e style guides. Ela não possuía peculiaridades próprias que a diferenciasse das demais
+            vitrines do site, na visão do usuário, exceto pela capacidade de inserir e excluir produtos conforme seu
+            desejo.</p>
+          <h2 id="pesquisa">Pesquisa</h2>
+          <p>Após realizar o benchmarking com outros 10 concorrentes de e-commerce fashion, constatei que todas as
+            seções de wishlist destes sites eram visualmente similares: funcionalidade básica de marcar o produto e
+            exibi-lo em uma lista, em formato de vitrine com acesso restrito ao login do usuário.</p>
+          <p>Após reuniões de brainstorm com as demais equipes, surgiram novas ideias para inovar o processo de
+            interação do usuário com a área de wishlist. A principal ideia votada foi a possibilidade de o usuário expor
+            seus favoritos a outras pessoas.</p>
+          <h2 id="processo">Processo</h2>
+          <p>A partir daí, tive a ideia de separar a área de favoritos em duas interfaces: edição e visualização. Fiquei
+            responsável por idealizar uma nova forma de o usuário mostrar sua wishlist diferentemente das analisadas no
+            mercado existente, com a preocupação de evitar a associação direta com uma vitrine de e-commerce
+            convencional. Para isso, listei como objetivos:</p>
+          <p>- Exibir fotos maiores</p>
+          <p>- Conceito visual alternativo, diferente de um grid de vitrine</p>
+          <p>- Ocultar informações de compra dos produtos ocultos: valores, botões, selos</p>
+          <p>- Adaptação dependente do número de produtos existentes na wishlist</p>
+          <p>A principal barreira interna, em relação a outros departamentos, foi a aceitação do fato de ocultar os
+            preços do produto nesta tela.
+            Meu argumento foi calcado no aspecto visual em que somente as imagens do produto seriam suficientes como
+            elemento visual, evitando referências a qualquer tipo de vitrine.
+            Minha intenção seria que o usuário tivesse uma experiência similar a aquisição de uma coleção de fotos, de
+            caráter mais pessoal.</p>
+          <p>Minha inspiração foi a lista de produtos do Pinterest, que possuia um grid diferenciado de exibicão geral,
+            embora permitisse visualizar elementos apelativos como botões e preços do produto. O objetivo era conseguir
+            a mesma fluidez de encaixe entre os boxes das células de produto.</p>
+          <p>Sketch da página de visualização da wishlist:</p>
+          <p><img src="/images/sketch-favoritos-visualizacao.png" alt="alt text" title="Sketch " /></p>
+          <h3 id="prototipao-direto-no-cdigo">Prototipação direto no código</h3>
+          <p>Ao invés de partir para os wireframes, comecei a prototipar a wishlist dos rascunhos das reuniões direto
+            para frontend. Esse processo se justificou pelo uso do <a href="http://masonry.desandro.com/">Masonry</a>,
+            uma biblioteca de layout grids em javascript, onde é possível projetar tamanhos diferentes de exibição das
+            fotos e garantir uma interação visual de acordo com o tamanho do view ou device do usuário. Comecei então a
+            trabalhar diretamente no HTML e CSS definindo protótipo interativo com estrutura low level de blocos,
+            utilizando os tamanhos de exibição para cada imagem do mosaico. Aproveitei os padrões existentes na base de
+            dados para as imagens de produto.</p>
+          <p>A tela de edição de favoritos continuou como formato vitrine, facilitando a exclusão de um produto:</p>
+          <p><img src="/images/favoritos-edicao.png" alt="alt text" title="Sketch " /></p>
+          <p>Após testes com extremos de conteúdo, a página de visualização final da wishlist subiu em produção. Como
+            planejado, a versão final possui somente as fotos dos produtos. O mouse hover na versão desktop revela o
+            nome do produto e valor, enquanto na versão mobile responsiva o clique aponta para a página do produto. A
+            última foto favoritada é exibida em tamanho G. Os produtos favoritados percorrem o template conforme a cada
+            favorito adicionado, gerando uma troca de tamanhos.</p>
+          <p>Versão final da página de visualização da wishlist:</p>
+          <p><img src="/images/favoritos-visualizacao.png" alt="alt text" title="Sketch " /></p>
+          <p>Clicando no botão compartilhar, um popup se abre e o usuário pode fazer o compartilhamento da wishlist de 3
+            maneiras diferentes: divulgando o link da wishlist, através de redes sociais, e por lista de email.</p>
+          <p><img src="/images/favoritos-compartilhar.png" alt="alt text" title="Sketch " /></p>
+          <p>Caso o usuário deseje comprar um favorito de sua lista, basta clicar no produto e um popup com um quickview
+            surgirá.</p>
+          <p><img src="/images/favoritos-popup.png" alt="alt text" title="Sketch " /></p>
+          <h2 id="resultados">Resultados</h2>
+          <h3 id="testes-com-usurios">Testes com usuários</h3>
+          <p>Foram realizados testes com 9 usuários, onde:</p>
+          <p>- 4 entrevistados não desejaram divulgar sua lista de favoritos, porém aprovaram o novo formado: acharam o
+            formato novo mais interessante do que a lista de edição / visualização antiga.</p>
+          <p>- 5 entrevistados aprovaram o formato novo de visualização, dizendo que divulgariam para seus contatos.</p>
+          <p>- 2 entrevistados preferiram a visualização antiga. Os motivos foram: não tinham necessidade de divulgar
+            seus favoritos, não usam os favoritos, não se lembrariam de acessar os favoritos.</p>
+          <p>- 2 entrevistados não notaram o botão de compartilhamento e não chegaram a acessar a página de visualização
+            da wishlist.</p>
+          <div class="txt-center">
+            <p></p>
+            <a class="btn " href="/jekyll/update/2018/case-study-1/" target="_blank">Veja o case study 1</a>
+            <p></p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <div class="clearfix"></div>
+    <footer class="site-footer txt-center">
+      <hr>
+      <ul class="social">
         <li><a href="" target="_blank"><i class="icon icon-"></i></a></li>
         <li><a href="http://github.com/rafaelducati" target="_blank"><i class="icon icon-github"></i></a></li>
         <li><a href="" target="_blank"><i class="icon icon-"></i></a></li>
@@ -111,9 +152,10 @@ Minha intenção seria que o usuário tivesse uma experiência similar a aquisi�
         <li><a href="http://instagram.com/radugram" target="_blank"><i class="icon icon-instagram"></i></a></li>
         <li><a href="" target="_blank"><i class="icon icon-"></i></a></li>
         <li><a href="http://linkedin.com/in/rafaelducati" target="_blank"><i class="icon icon-linkedin"></i></a></li>
-  </ul>
-  <small>&copy; 2018 All rights reserved.</small>
-</footer>
-    </main>
-  </body>
+      </ul>
+      <small>&copy; 2018 All rights reserved.</small>
+    </footer>
+  </main>
+</body>
+
 </html>
