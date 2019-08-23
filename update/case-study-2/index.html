@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Case study 2 - Uselets Wishlist | Rafael Ducati</title>
+  <title> Case study: E-commerce Wishlist | Rafael Ducati</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <link rel="stylesheet" href="../../css/main.css">
@@ -59,82 +59,53 @@
     <section class="main-content">
       <article class="post">
         <header class="post-header">
-          <h1 class="post-title">Case study 2 - Uselets Wishlist</h1>
+          <h1 class="post-title">Case study: E-commerce Wishlist</h1>
           <!-- <p class="post-meta">Mar 20, 2018</p> -->
         </header>
         <div class="post-content">
           <h2 id="overview">Overview</h2>
-          <p>Na seção de wishlist do Uselets, o usuário pode favoritar produtos que são guardados em uma página
-            associada a seu perfil. Após a verificação de um crescente número de produtos favoritados por cada usuário,
-            surgiu a necessidade de alavancar a conversão neste ponto.</p>
-          <h2 id="problema">Problema</h2>
-          <p>A seção de wishlist foi desenvolvida através de um processo de derivação da vitrine tradicional do site,
-            seguindo o mesmo grid e style guides. Ela não possuía peculiaridades próprias que a diferenciasse das demais
-            vitrines do site, na visão do usuário, exceto pela capacidade de inserir e excluir produtos conforme seu
-            desejo.</p>
-          <h2 id="pesquisa">Pesquisa</h2>
-          <p>Após realizar o benchmarking com outros 10 concorrentes de e-commerce fashion, constatei que todas as
-            seções de wishlist destes sites eram visualmente similares: funcionalidade básica de marcar o produto e
-            exibi-lo em uma lista, em formato de vitrine com acesso restrito ao login do usuário.</p>
-          <p>Após reuniões de brainstorm com as demais equipes, surgiram novas ideias para inovar o processo de
-            interação do usuário com a área de wishlist. A principal ideia votada foi a possibilidade de o usuário expor
-            seus favoritos a outras pessoas.</p>
-          <h2 id="processo">Processo</h2>
-          <p>A partir daí, tive a ideia de separar a área de favoritos em duas interfaces: edição e visualização. Fiquei
-            responsável por idealizar uma nova forma de o usuário mostrar sua wishlist diferentemente das analisadas no
-            mercado existente, com a preocupação de evitar a associação direta com uma vitrine de e-commerce
-            convencional. Para isso, listei como objetivos:</p>
-          <p>- Exibir fotos maiores</p>
-          <p>- Conceito visual alternativo, diferente de um grid de vitrine</p>
-          <p>- Ocultar informações de compra dos produtos ocultos: valores, botões, selos</p>
-          <p>- Adaptação dependente do número de produtos existentes na wishlist</p>
-          <p>A principal barreira interna, em relação a outros departamentos, foi a aceitação do fato de ocultar os
-            preços do produto nesta tela.
-            Meu argumento foi calcado no aspecto visual em que somente as imagens do produto seriam suficientes como
-            elemento visual, evitando referências a qualquer tipo de vitrine.
-            Minha intenção seria que o usuário tivesse uma experiência similar a aquisição de uma coleção de fotos, de
-            caráter mais pessoal.</p>
-          <p>Minha inspiração foi a lista de produtos do Pinterest, que possuia um grid diferenciado de exibicão geral,
-            embora permitisse visualizar elementos apelativos como botões e preços do produto. O objetivo era conseguir
-            a mesma fluidez de encaixe entre os boxes das células de produto.</p>
-          <p>Sketch da página de visualização da wishlist:</p>
-          <p><img src="/images/sketch-favoritos-visualizacao.png" alt="alt text" title="Sketch " /></p>
-          <h3 id="prototipao-direto-no-cdigo">Prototipação direto no código</h3>
-          <p>Ao invés de partir para os wireframes, comecei a prototipar a wishlist dos rascunhos das reuniões direto
-            para frontend. Esse processo se justificou pelo uso do <a href="http://masonry.desandro.com/">Masonry</a>,
-            uma biblioteca de layout grids em javascript, onde é possível projetar tamanhos diferentes de exibição das
-            fotos e garantir uma interação visual de acordo com o tamanho do view ou device do usuário. Comecei então a
-            trabalhar diretamente no HTML e CSS definindo protótipo interativo com estrutura low level de blocos,
-            utilizando os tamanhos de exibição para cada imagem do mosaico. Aproveitei os padrões existentes na base de
-            dados para as imagens de produto.</p>
-          <p>A tela de edição de favoritos continuou como formato vitrine, facilitando a exclusão de um produto:</p>
+          <p>In the Uselets wishlist section, the user can favor products that are saved on a page associated with their profile. After verifying a growing number of products favored by each user, the need arose to leverage conversion at this point.</p>
+          <h2 id="problema">Problem</h2>
+          <p>The wishlist section was developed through a process of deriving the traditional showcase of the site, following the same grid and style guides. It had no peculiarities of its own that set it apart from other storefronts in the user's view, except for the ability to insert and delete products as desired.</p>
+          <h2 id="pesquisa">Research</h2>
+          <p>After benchmarking 10 other fashion ecommerce competitors, I found that all of the wishlist sections of these sites were visually similar: basic functionality of tagging the product and displaying it in a showcase-like list with restricted login access of user.</p>
+          <p>After brainstorming meetings with other teams, new ideas emerged to innovate the process of user interaction with the wishlist area. The main idea voted on was the possibility for the user to expose their favorites to others.</p>
+          <h2 id="processo">Process</h2>
+          <p>From there, I had the idea of separating the favorites area into two interfaces: editing and viewing. I was responsible for devising a new way for the user to show their wishlist differently from those analyzed in the existing market, with the concern of avoiding direct association with a conventional e-commerce showcase. For this, I listed as objectives:</p>
+          <ul>
+            <li>- View larger photos</li>
+            <li>- Alternative visual concept, different from a showcase grid</li>
+            <li>- Hide hidden product purchase information: values, buttons, stamps</li>
+            <li>- Adaptation dependent on number of wishlist products</li>
+          </ul>
+          <p>The main internal barrier, compared to other departments, was the acceptance of hiding product prices on this screen. My argument was based on the visual aspect in which only the product images would be sufficient as a visual element, avoiding references to any type of showcase. My intention would be for the user to have a similar experience to acquiring a more personal photo collection.</p>
+          <p>My inspiration was the Pinterest product list, which had a distinctive overall display grid, while allowing you to see appealing elements like buttons and product pricing. The goal was to achieve the same fit fluidity between the product cell pits.</p>
+          <p>Wishlist preview page sketch:</p>
+          <p><img src="/images/sketch-favoritos-visualizacao.png" alt="alt text" title="Sketch" /></p>
+          <h3 id="prototipao-direto-no-cdigo">Direct prototyping in code</h3>
+          <p>Instead of going to the wireframes, I started prototyping the meeting draft wishlist straight to frontend. This process was justified by the use of <a href="http://masonry.desandro.com/">Masonry</a>,
+            a javascript layout grid library, where you can design different photo display sizes and ensure visual interaction according to the size of the user's view or device. I then started working directly on HTML and CSS defining interactive prototype with low level block structure, using the display sizes for each tile image. I took advantage of the existing patterns in the database for product images.</p>
+          <p>The bookmark editing screen continued as a shop window format, making it easy to delete a product:</p>
           <p><img src="/images/favoritos-edicao.png" alt="alt text" title="Sketch " /></p>
-          <p>Após testes com extremos de conteúdo, a página de visualização final da wishlist subiu em produção. Como
-            planejado, a versão final possui somente as fotos dos produtos. O mouse hover na versão desktop revela o
-            nome do produto e valor, enquanto na versão mobile responsiva o clique aponta para a página do produto. A
-            última foto favoritada é exibida em tamanho G. Os produtos favoritados percorrem o template conforme a cada
-            favorito adicionado, gerando uma troca de tamanhos.</p>
-          <p>Versão final da página de visualização da wishlist:</p>
+          <p>After testing content extremes, the wishlist's final watch page went up in production. As planned, the final version contains only product photos. The mouse hover in the desktop version reveals the product name and value, while in the responsive mobile version the click points to the product page. The last favorite photo is displayed in G size. Favorite products scroll through the template according to each favorite added, generating a size change.</p>
+          <p>Final version of wishlist preview page:</p>
           <p><img src="/images/favoritos-visualizacao.png" alt="alt text" title="Sketch " /></p>
-          <p>Clicando no botão compartilhar, um popup se abre e o usuário pode fazer o compartilhamento da wishlist de 3
-            maneiras diferentes: divulgando o link da wishlist, através de redes sociais, e por lista de email.</p>
+          <p>By clicking on the share button, a popup opens and the user can share the wishlist in 3 different ways: by spreading the wishlist link, via social networks, and by email list.</p>
           <p><img src="/images/favoritos-compartilhar.png" alt="alt text" title="Sketch " /></p>
-          <p>Caso o usuário deseje comprar um favorito de sua lista, basta clicar no produto e um popup com um quickview
-            surgirá.</p>
+          <p>If the user wants to buy a favorite from their list, just click on the product and a popup with a quickview will appear.</p>
           <p><img src="/images/favoritos-popup.png" alt="alt text" title="Sketch " /></p>
-          <h2 id="resultados">Resultados</h2>
-          <h3 id="testes-com-usurios">Testes com usuários</h3>
-          <p>Foram realizados testes com 9 usuários, onde:</p>
-          <p>- 4 entrevistados não desejaram divulgar sua lista de favoritos, porém aprovaram o novo formado: acharam o
-            formato novo mais interessante do que a lista de edição / visualização antiga.</p>
-          <p>- 5 entrevistados aprovaram o formato novo de visualização, dizendo que divulgariam para seus contatos.</p>
-          <p>- 2 entrevistados preferiram a visualização antiga. Os motivos foram: não tinham necessidade de divulgar
-            seus favoritos, não usam os favoritos, não se lembrariam de acessar os favoritos.</p>
-          <p>- 2 entrevistados não notaram o botão de compartilhamento e não chegaram a acessar a página de visualização
-            da wishlist.</p>
+          <h2 id="resultados">Results</h2>
+          <h3 id="testes-com-usurios">User testing</h3>
+          <p>Tests were conducted with 9 users, where:</p>
+          <ul>
+            <li>- 4 users did not want to disclose their favorites list, but approved the new graduate: they found the new format more interesting than the old edit / view list.</li>
+            <li>- 5 users approved the new visualization format, saying they would disclose it to their contacts.</li>
+            <li>- 2 users preferred the old view. The reasons were: they didn't need to promote their favorites, they don't use the favorites, they wouldn't remember to access the favorites.</li>
+            <li>- 2 users did not notice the share button and did not reach the wishlist preview page.</li>
+          </ul>
           <div class="txt-center">
             <p></p>
-            <a class="btn " href="/update/case-study-1/" target="_blank">Veja o case study 1</a>
+            <a class="btn " href="/update/case-study-1/" target="_blank">Go back: ecommerce Clothing size feature</a>
             <p></p>
           </div>
         </div>

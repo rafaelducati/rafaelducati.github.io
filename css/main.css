@@ -121,6 +121,8 @@ section {
 }
 body {
   line-height: 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 ol,
 ul {
@@ -186,8 +188,14 @@ strong {
 em {
   font-style: italic;
 }
-p {
-  margin: 0 0 1em 0;
+p, .post li {
+    margin: 0 0 2em 0;
+    color: rgba(0, 0, 0, 0.84);
+    font-family: 'Open Sans';
+    font-size: 21px;
+    letter-spacing: -0.004em;
+    word-break: break-word;
+    line-height: 1.6em;
 }
 img {
   display: block;
@@ -418,6 +426,13 @@ pre code {
 .post .post-meta {
   font-style: italic;
   color: #aaa;
+}
+
+.post ul {
+    margin: 0 0 2em 0;
+}
+.post li {
+    margin: 0;
 }
 .post:after {
   content: "";
