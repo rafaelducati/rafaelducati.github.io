@@ -204,6 +204,7 @@ img {
   max-width: 100%;
 }
 h1,
+.main-title,
 h2,
 h3,
 h4,
@@ -225,6 +226,7 @@ h6 a {
   text-decoration: none;
 }
 h1 small,
+.main-title small,
 h2 small,
 h3 small,
 h4 small,
@@ -366,11 +368,13 @@ pre code {
   color: #aaa;
   font-style: italic;
 }
-.site-header h1 {
+.site-header h1,
+.site-header .main-title {
   font-size: 2rem;
   margin-top: 1em;
 }
-.site-header h1 small {
+.site-header h1 small,
+.site-header .main-title small {
   margin-top: 0.6em;
   display: block;
 }
@@ -419,10 +423,6 @@ pre code {
 }
 .post {
   margin: 3em 0;
-}
-
-.post h1 {
-  margin-bottom: 0.3em;
 }
 
 .post h2 {
