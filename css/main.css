@@ -183,7 +183,7 @@ a:hover {
   color: #007393;
 }
 strong {
-  font-weight: 700;
+  font-weight: 400;
 }
 em {
   font-style: italic;
@@ -406,9 +406,11 @@ pre code {
     color: #02B3E4;
     text-transform: uppercase;
     letter-spacing: 0.15em;
+    font-weight: 400;
+    padding: 2px 0;
 }
 .navbar a:hover {
-    border-bottom: 1px solid rgba(2, 179, 228, 0.5);
+    border-bottom: 2px solid rgba(2, 179, 228, 0.5);
 }
 .navbar .divider {
   padding-left: 0.6em;
